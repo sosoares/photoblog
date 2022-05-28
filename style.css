@@ -1,0 +1,21 @@
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Major Mono Display', monospace;
+    
+}
+
+img{
+  width: 30%;
+  height: 580px;
+  margin: calc(10%/6);
+  transition: 0.8s;
+ 
+}
+img:hover{
+    box-shadow: 3px 2px 3px rgb(56, 55, 55);
+    transform: translateY(-5px);
+}
+
