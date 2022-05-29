@@ -1,21 +1,42 @@
 
-h1{
-    text-align: center;
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-family: 'Major Mono Display', monospace;
-    
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Major Mono Display", monospace;
 }
 
-img{
+section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 2;
+}
+
+img {
   width: 30%;
   height: 580px;
-  margin: calc(10%/6);
   transition: 0.8s;
- 
+  margin-bottom: 1em;
+
+  
 }
-img:hover{
-    box-shadow: 3px 2px 3px rgb(56, 55, 55);
-    transform: translateY(-5px);
+img:hover {
+  box-shadow: 3px 2px 3px rgb(56, 55, 55);
+  transform: translateY(-5px);
 }
 
+@media (max-width: 800px) {
+  img {
+    width: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  img {
+    width: 400px;
+  }
+}
